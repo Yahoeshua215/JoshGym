@@ -1,0 +1,14 @@
+export interface Message {
+  role: 'user' | 'model';
+  text: string;
+}
+
+export interface NavItem {
+  label: string;
+  href: string;
+}
+
+export enum AppState {
+  HOME = 'HOME',
+  CONCIERGE = 'CONCIERGE'
+}
